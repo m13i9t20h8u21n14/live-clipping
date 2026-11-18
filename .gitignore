@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+
+# Buffers and generated clips
+temp_buffer/
+output_clips/
+*.ts
+*.mp4
+*.wav
+*.png
+
+# Credentials & secrets
+client_secrets.json
+token.json
+credentials.json

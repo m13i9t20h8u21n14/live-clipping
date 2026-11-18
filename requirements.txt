@@ -1,0 +1,13 @@
+# Core Stream Ingestion & Buffer
+streamlink>=8.0.0
+
+# Live Chat Velocity Monitoring (YouTube)
+pytchat>=0.5.5
+
+# Subtitles & AI Transcription (Fast INT8 CPU/GPU)
+faster-whisper>=1.0.0
+
+# Optional: Automated YouTube Uploads (YouTube Data API v3)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
