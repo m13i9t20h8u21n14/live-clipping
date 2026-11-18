@@ -18,9 +18,24 @@ class LiveChatWatcher:
         self.history_rates = []
 
     def _extract_video_id(self, url_or_id: str) -> str:
+        # Check standard 11-character video ID regex
         match = re.search(r"(?:v=|\/live\/|youtu\.be\/)([a-zA-Z0-9_-]{11})", url_or_id)
         if match:
             return match.group(1)
+        
+        # If it's a channel live URL like @GamerFleet/live, resolve active video ID with yt-dlp
+        if "@" in url_or_id or "/channel/" in url_or_id or "/c/" in url_or_id:
+            try:
+                import yt_dlp
+                ydl = yt_dlp.YoutubeDL({'quiet': True, 'noplaylist': True})
+                info = ydl.extract_info(url_or_id, download=False)
+                resolved_id = info.get('id')
+                if resolved_id:
+                    print(f"[ChatWatcher] Resolved live video ID: {resolved_id}")
+                    return resolved_id
+            except Exception as e:
+                print(f"[ChatWatcher] Could not resolve live video ID: {e}")
+
         return url_or_id
 
     def start(self):

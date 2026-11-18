@@ -51,7 +51,7 @@ class SubtitleGenerator:
             segments, info = model.transcribe(
                 str(audio_temp),
                 word_timestamps=True,
-                language="en"
+                language=None
             )
 
             # ASS Header with Yellow Bold Shorts Style:

@@ -50,11 +50,23 @@ class LiveClipperApp:
         )
 
         if short_path:
-            # 3. Prepare Upload / Metadata
+            # Detect streamer name from URL
+            streamer_name = "Streamer"
+            url_lower = self.stream_url.lower()
+            if "carry" in url_lower:
+                streamer_name = "CarryisLive"
+            elif "fleet" in url_lower:
+                streamer_name = "GamerFleet"
+            elif "speed" in url_lower:
+                streamer_name = "IShowSpeed"
+            elif "rachit" in url_lower:
+                streamer_name = "Rachitroo"
+
+            # 3. Prepare Upload / Metadata with Gemini AI
             self.uploader.upload_short(
                 short_path,
-                title="INSANE GTA 6 MOMENT",
-                streamer_name="Streamer",
+                title="INSANE GAMING MOMENT",
+                streamer_name=streamer_name,
                 stream_url=self.stream_url
             )
             print(f"✨ Ready-to-Post Short created: {short_path.name}")
@@ -105,16 +117,31 @@ Controls:
         print("[LiveClipper] Done.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Real-Time Live Stream Clipper")
+    from config import STREAMER_PRESETS
+
+    parser = argparse.ArgumentParser(description="Real-Time Live Stream Clipper (CarryisLive & GamerFleet)")
+    parser.add_argument("--streamer", type=str, choices=["carry", "fleet"], help="Quick preset for CarryisLive or GamerFleet")
     parser.add_argument("--url", type=str, help="Live stream URL (YouTube or Twitch)")
     parser.add_argument("--duration", type=int, default=DEFAULT_CLIP_DURATION, help="Clip length in seconds")
     parser.add_argument("--layout", type=str, default=DEFAULT_LAYOUT, choices=["blur_fill", "split_cam_top", "center_crop"])
 
     args = parser.parse_args()
 
-    target_url = args.url
+    target_url = None
+    if args.streamer and args.streamer in STREAMER_PRESETS:
+        target_url = STREAMER_PRESETS[args.streamer]
+        print(f"\n[Preset Loaded] Target: {args.streamer.upper()} -> {target_url}")
+    elif args.url:
+        target_url = args.url
+
     if not target_url:
-        target_url = input("Enter YouTube or Twitch Live Stream URL: ").strip()
+        choice = input("Choose Streamer:\n  1. CarryisLive\n  2. GamerFleet\n  3. Custom URL\nSelect (1/2/3): ").strip()
+        if choice == "1":
+            target_url = STREAMER_PRESETS["carry"]
+        elif choice == "2":
+            target_url = STREAMER_PRESETS["fleet"]
+        else:
+            target_url = input("Enter YouTube or Twitch Live Stream URL: ").strip()
 
     app = LiveClipperApp(target_url, clip_duration=args.duration, layout=args.layout)
     app.run()
