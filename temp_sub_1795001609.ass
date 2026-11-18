@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YellowShorts,Arial Black,76,&H0000FFFF,&H0000FFFF,&H00000000,&HA0000000,1,1,0,0,100,100,2,0,1,6,3,2,50,50,440,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.60,YellowShorts,,0,0,0,,WE LIVE MINI -FOCTEEN
+Dialogue: 0,0:00:01.60,0:00:02.40,YellowShorts,,0,0,0,,AGAIN, MINI -FOCTEEN!
+Dialogue: 0,0:00:02.52,0:00:03.20,YellowShorts,,0,0,0,,OH, THEY'RE FUCKING UP
+Dialogue: 0,0:00:03.20,0:00:03.96,YellowShorts,,0,0,0,,DOWN TO ME, YOU!
+Dialogue: 0,0:00:04.22,0:00:05.50,YellowShorts,,0,0,0,,TOGETHER WE GET THEM.
+Dialogue: 0,0:00:05.56,0:00:07.26,YellowShorts,,0,0,0,,WHAT HAPPENED TO YOU?
+Dialogue: 0,0:00:07.38,0:00:07.66,YellowShorts,,0,0,0,,CRAZY.
+Dialogue: 0,0:00:12.08,0:00:13.12,YellowShorts,,0,0,0,,WHAT'S THE PLAY?
+Dialogue: 0,0:00:14.04,0:00:15.06,YellowShorts,,0,0,0,,NOTHING TO TALK ABOUT.
+Dialogue: 0,0:00:18.06,0:00:19.18,YellowShorts,,0,0,0,,WE'RE GONNA HAVE TO
+Dialogue: 0,0:00:19.18,0:00:19.98,YellowShorts,,0,0,0,,COUNT THIS.
+Dialogue: 0,0:00:21.66,0:00:22.48,YellowShorts,,0,0,0,,OKAY, CHICKEN WILL BE
+Dialogue: 0,0:00:22.48,0:00:23.96,YellowShorts,,0,0,0,,A GAME AGAIN THEN.
+Dialogue: 0,0:00:24.58,0:00:25.00,YellowShorts,,0,0,0,,I WANT YOU TO
+Dialogue: 0,0:00:25.00,0:00:27.16,YellowShorts,,0,0,0,,CALL THE AMERICAN DOUBLE
+Dialogue: 0,0:00:27.16,0:00:27.72,YellowShorts,,0,0,0,,SHOT SHOT.
+Dialogue: 0,0:00:27.72,0:00:29.14,YellowShorts,,0,0,0,,COME WITH US.
+Dialogue: 0,0:00:29.66,0:00:30.94,YellowShorts,,0,0,0,,HE'S TALKING TO SOMEBODY.
+Dialogue: 0,0:00:31.56,0:00:32.20,YellowShorts,,0,0,0,,WHAT ARE YOU TALKING
+Dialogue: 0,0:00:32.20,0:00:32.30,YellowShorts,,0,0,0,,ABOUT?
+Dialogue: 0,0:00:32.78,0:00:33.76,YellowShorts,,0,0,0,,I DON'T KNOW.
+Dialogue: 0,0:00:35.64,0:00:36.36,YellowShorts,,0,0,0,,I DON'T KNOW IF
+Dialogue: 0,0:00:36.36,0:00:36.66,YellowShorts,,0,0,0,,YOU SEE.
+Dialogue: 0,0:00:36.72,0:00:39.38,YellowShorts,,0,0,0,,I'M BACK OUT OF
+Dialogue: 0,0:00:39.38,0:00:39.86,YellowShorts,,0,0,0,,MY HEAD.
+Dialogue: 0,0:00:40.34,0:00:41.06,YellowShorts,,0,0,0,,I CAN'T TELL YOU.
+Dialogue: 0,0:00:42.10,0:00:42.30,YellowShorts,,0,0,0,,SISTER.
+Dialogue: 0,0:00:44.16,0:00:45.36,YellowShorts,,0,0,0,,COME ON.
+Dialogue: 0,0:00:45.96,0:00:46.88,YellowShorts,,0,0,0,,I DON'T KNOW ABOUT
+Dialogue: 0,0:00:46.88,0:00:47.22,YellowShorts,,0,0,0,,MINE.
+Dialogue: 0,0:00:47.46,0:00:48.12,YellowShorts,,0,0,0,,NO, I DON'T KNOW.
+Dialogue: 0,0:00:50.06,0:00:50.64,YellowShorts,,0,0,0,,I WANT TO SHOW
+Dialogue: 0,0:00:50.64,0:00:51.44,YellowShorts,,0,0,0,,YOU PROM, HUH?
+Dialogue: 0,0:00:52.04,0:00:52.34,YellowShorts,,0,0,0,,REALLY?
+Dialogue: 0,0:00:52.66,0:00:54.18,YellowShorts,,0,0,0,,I DON'T WANT TO.
+Dialogue: 0,0:00:54.18,0:00:55.32,YellowShorts,,0,0,0,,IT'S JUST ONE FOOT
+Dialogue: 0,0:00:55.32,0:00:55.96,YellowShorts,,0,0,0,,IN FRONT OF THE
+Dialogue: 0,0:00:55.96,0:00:56.14,YellowShorts,,0,0,0,,EARTH.
+Dialogue: 0,0:00:56.52,0:00:56.96,YellowShorts,,0,0,0,,OKAY, WE'RE GOING TO
+Dialogue: 0,0:00:56.96,0:00:57.62,YellowShorts,,0,0,0,,THE TIP OF THE
+Dialogue: 0,0:00:57.62,0:00:57.80,YellowShorts,,0,0,0,,TABLE.
+Dialogue: 0,0:00:58.68,0:00:59.62,YellowShorts,,0,0,0,,OH, THEY'RE ALL MERCY.
+Dialogue: 0,0:01:04.38,0:01:05.44,YellowShorts,,0,0,0,,THEY'RE COMING ALL THE
+Dialogue: 0,0:01:05.44,0:01:05.46,YellowShorts,,0,0,0,,WAY.
+Dialogue: 0,0:01:05.52,0:01:06.22,YellowShorts,,0,0,0,,THEY'RE GOING TO BE
+Dialogue: 0,0:01:06.22,0:01:06.72,YellowShorts,,0,0,0,,TOO HAPPY.
+Dialogue: 0,0:01:06.78,0:01:07.48,YellowShorts,,0,0,0,,I'M GOING TO KILL
+Dialogue: 0,0:01:07.48,0:01:07.60,YellowShorts,,0,0,0,,THEM.
+Dialogue: 0,0:01:09.76,0:01:10.16,YellowShorts,,0,0,0,,WHAT?
+Dialogue: 0,0:01:13.88,0:01:14.28,YellowShorts,,0,0,0,,LOOT?
+Dialogue: 0,0:01:16.34,0:01:16.74,YellowShorts,,0,0,0,,FUCK.
+Dialogue: 0,0:01:17.78,0:01:18.06,YellowShorts,,0,0,0,,I CAN'T HEAR THEM
+Dialogue: 0,0:01:18.06,0:01:18.64,YellowShorts,,0,0,0,,FROM THE FRONT.
+Dialogue: 0,0:01:18.64,0:01:19.90,YellowShorts,,0,0,0,,THIS IS FOR THE
+Dialogue: 0,0:01:19.90,0:01:19.98,YellowShorts,,0,0,0,,SON.
+Dialogue: 0,0:01:19.98,0:01:20.82,YellowShorts,,0,0,0,,THIS IS FOR THE
+Dialogue: 0,0:01:20.82,0:01:20.82,YellowShorts,,0,0,0,,SON.
+Dialogue: 0,0:01:21.50,0:01:21.90,YellowShorts,,0,0,0,,THIS IS FOR THE
+Dialogue: 0,0:01:21.90,0:01:21.90,YellowShorts,,0,0,0,,SON.
+Dialogue: 0,0:01:28.40,0:01:29.68,YellowShorts,,0,0,0,,WHY ARE WE DOING
+Dialogue: 0,0:01:29.68,0:01:30.80,YellowShorts,,0,0,0,,EITHER OF THOSE THINGS?
+Dialogue: 0,0:01:30.82,0:01:31.68,YellowShorts,,0,0,0,,WE'RE UP, DONNIE.
+Dialogue: 0,0:01:34.86,0:01:36.76,YellowShorts,,0,0,0,,IT'S MY FEET SOMEWHERE.
+Dialogue: 0,0:01:37.68,0:01:42.90,YellowShorts,,0,0,0,,I DON'T KNOW.
+Dialogue: 0,0:01:43.56,0:01:44.00,YellowShorts,,0,0,0,,I DON'T KNOW.
+Dialogue: 0,0:01:44.00,0:01:46.48,YellowShorts,,0,0,0,,I DON'T KNOW.
+Dialogue: 0,0:01:46.70,0:01:47.64,YellowShorts,,0,0,0,,FUCK ME.
+Dialogue: 0,0:01:47.64,0:01:49.78,YellowShorts,,0,0,0,,I DON'T KNOW.
+Dialogue: 0,0:01:49.78,0:01:50.14,YellowShorts,,0,0,0,,OKAY.
+Dialogue: 0,0:01:51.40,0:01:52.00,YellowShorts,,0,0,0,,THIS IS FOR THE
+Dialogue: 0,0:01:52.00,0:01:52.30,YellowShorts,,0,0,0,,SON.
+Dialogue: 0,0:01:53.47,0:01:53.84,YellowShorts,,0,0,0,,WE'RE GOING TO THE
+Dialogue: 0,0:01:53.84,0:01:54.54,YellowShorts,,0,0,0,,TIP OF THE TABLE.
+Dialogue: 0,0:01:55.29,0:01:55.66,YellowShorts,,0,0,0,,OKAY.
+Dialogue: 0,0:01:57.50,0:01:58.16,YellowShorts,,0,0,0,,YOU KNOW WHAT?

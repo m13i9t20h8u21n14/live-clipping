@@ -15,6 +15,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Streamer Quick Presets (1-Click Shortcuts)
 STREAMER_PRESETS = {
+    "speed": "https://www.youtube.com/@IShowSpeed/live",
     "carry": "https://www.youtube.com/@CarryisLive/live",
     "fleet": "https://www.youtube.com/@GamerFleet/live"
 }
@@ -27,18 +28,21 @@ MAX_BUFFER_SEGMENTS = BUFFER_TOTAL_SECONDS // SEGMENT_TIME_SECONDS  # 75 segment
 # Clip Settings
 DEFAULT_CLIP_DURATION = 120   # Duration of clip in seconds (2 minutes)
 DEFAULT_LAYOUT = "blur_fill" # 9:16 vertical with blurred background and centered 16:9 gameplay
+ENABLE_SUBTITLES = False      # Subtitles disabled as requested (set True to re-enable)
 
 # Chat Spike Trigger Settings
 CHAT_WINDOW_SECONDS = 5       # Analyze chat frequency every 5 seconds
 SPIKE_MULTIPLIER = 2.2        # Trigger if messages/sec > 2.2x moving average
 COOLDOWN_SECONDS = 120        # Minimum seconds between automatic clips
 
-# Combined High-Energy Indian Gaming Chat Keywords
+# Combined High-Energy Gaming Chat Keywords
 TRIGGER_KEYWORDS = [
+    # IShowSpeed specific triggers
+    "speed", "ishowspeed", "sewey", "bark", "ronaldo", "cr7", "crashout", "backflip", "dawg", "bro",
     # CarryisLive specific triggers
     "carry", "rage", "toxic", "gali", "desk", "slap", "chomu", "savage", "pagal", "cheating",
     # GamerFleet specific triggers
     "fleet", "anshu", "choke", "clutch", "oye", "troll", "noob",
-    # Universal Indian Hype slang
-    "bhai", "op", "khatam", "rip", "lmao", "lol", "wtf", "dead", "sheesh", "w", "omg"
+    # Universal Hype slang
+    "bhai", "op", "khatam", "rip", "lmao", "lol", "wtf", "dead", "sheesh", "w", "omg", "w speed", "l speed"
 ]

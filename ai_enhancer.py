@@ -29,8 +29,18 @@ class AIEnhancer:
         if not transcript or len(transcript.strip()) < 5:
             transcript = "Intense gaming moment, funny reactions, screaming and banter."
 
-        # Specific Persona Prompts for Indian Streaming Kings
-        if "carry" in streamer_name.lower():
+        # Specific Persona Prompts for Streamers
+        if "speed" in streamer_name.lower():
+            persona_guidelines = (
+                "You are writing a title and SEO tags for ISHOWSPEED (Speed). "
+                "Speed's audience loves: EXTREME CRASHOUTS, BARKING, LOUD SCREAMING, "
+                "CRISTIANO RONALDO / SEWEY MOMENTS, UNHINGED REACTIONS, BACKFLIPS, AND PURE CHAOS. "
+                "Use high-energy all-caps viral hooks with emojis like 💀, 😭, 😱, 🔥, ⚡. "
+                "Examples: 'SPEED COMPLETELY LOST HIS MIND 💀😭 #shorts #ishowspeed', "
+                "'SPEED'S CRAZIEST CRASHOUT EVER 😱 #shorts #speed', "
+                "'SPEED COULD NOT BELIEVE WHAT HAPPENED 💀⚡ #shorts #ishowspeed'."
+            )
+        elif "carry" in streamer_name.lower():
             persona_guidelines = (
                 "You are writing a title for CARRYMINATI (CarryisLive). "
                 "Carry's audience loves: UNFILTERED RAGE, DESK SLAMS, SCREAMING AT NOOBS, "
@@ -93,15 +103,20 @@ Do NOT use markdown code fences. Output valid JSON only.
             return self._fallback(streamer_name, game)
 
     def _fallback(self, streamer_name: str, game: str) -> dict:
-        if "carry" in streamer_name.lower():
+        if "speed" in streamer_name.lower():
+            title = f"SPEED COMPLETELY LOST HIS MIND 💀😭 #shorts #ishowspeed"
+            hashtags = ["#shorts", "#ishowspeed", "#speed", "#gaming", "#highlights"]
+        elif "carry" in streamer_name.lower():
             title = f"CARRY LOST HIS MIND IN {game.upper()} 💀💥 #shorts #carryislive"
+            hashtags = ["#shorts", "#carryislive", "#carryminati", "#gaming"]
         else:
             title = f"FLEET BHAI NE YE KYA KIYA?! 🤣 #shorts #gamerfleet"
+            hashtags = ["#shorts", "#gamerfleet", "#fleet", "#gaming"]
 
         return {
             "title": title,
-            "virality_score": 8.0,
+            "virality_score": 8.5,
             "reaction_category": "Gaming Highlight",
             "reason": "High-energy reaction moment from live stream",
-            "hashtags": ["#shorts", f"#{streamer_name.lower()}", f"#{game.lower().replace(' ', '')}"]
+            "hashtags": hashtags
         }

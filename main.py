@@ -119,8 +119,8 @@ Controls:
 if __name__ == "__main__":
     from config import STREAMER_PRESETS
 
-    parser = argparse.ArgumentParser(description="Real-Time Live Stream Clipper (CarryisLive & GamerFleet)")
-    parser.add_argument("--streamer", type=str, choices=["carry", "fleet"], help="Quick preset for CarryisLive or GamerFleet")
+    parser = argparse.ArgumentParser(description="Real-Time Live Stream Clipper (IShowSpeed, Carry, GamerFleet)")
+    parser.add_argument("--streamer", type=str, choices=["speed", "carry", "fleet"], help="Quick preset for IShowSpeed, CarryisLive, or GamerFleet")
     parser.add_argument("--url", type=str, help="Live stream URL (YouTube or Twitch)")
     parser.add_argument("--duration", type=int, default=DEFAULT_CLIP_DURATION, help="Clip length in seconds")
     parser.add_argument("--layout", type=str, default=DEFAULT_LAYOUT, choices=["blur_fill", "split_cam_top", "center_crop"])
@@ -135,13 +135,16 @@ if __name__ == "__main__":
         target_url = args.url
 
     if not target_url:
-        choice = input("Choose Streamer:\n  1. CarryisLive\n  2. GamerFleet\n  3. Custom URL\nSelect (1/2/3): ").strip()
+        choice = input("Choose Streamer:\n  1. IShowSpeed\n  2. CarryisLive\n  3. GamerFleet\n  4. Custom URL\nSelect (1/2/3/4): ").strip()
         if choice == "1":
-            target_url = STREAMER_PRESETS["carry"]
+            target_url = STREAMER_PRESETS["speed"]
         elif choice == "2":
+            target_url = STREAMER_PRESETS["carry"]
+        elif choice == "3":
             target_url = STREAMER_PRESETS["fleet"]
         else:
             target_url = input("Enter YouTube or Twitch Live Stream URL: ").strip()
 
     app = LiveClipperApp(target_url, clip_duration=args.duration, layout=args.layout)
+    app.run()
     app.run()

@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YellowShorts,Arial Black,76,&H0000FFFF,&H0000FFFF,&H00000000,&HA0000000,1,1,0,0,100,100,2,0,1,6,3,2,50,50,440,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.46,0:00:02.86,YellowShorts,,0,0,0,,..AHHHH..
+Dialogue: 0,0:00:02.86,0:00:04.02,YellowShorts,,0,0,0,,..AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Dialogue: 0,0:00:04.02,0:00:06.60,YellowShorts,,0,0,0,,OH GOD..
+Dialogue: 0,0:00:07.98,0:00:12.32,YellowShorts,,0,0,0,,OH GOD..
+Dialogue: 0,0:00:12.32,0:00:13.78,YellowShorts,,0,0,0,,OH GOD..
+Dialogue: 0,0:00:13.78,0:00:13.84,YellowShorts,,0,0,0,,OH WATER..
+Dialogue: 0,0:00:13.84,0:00:15.16,YellowShorts,,0,0,0,,WHAT...?
+Dialogue: 0,0:00:15.16,0:00:16.08,YellowShorts,,0,0,0,,OH GOD..
+Dialogue: 0,0:00:16.08,0:00:19.44,YellowShorts,,0,0,0,,I CAN'T SEE ANYTHING..
+Dialogue: 0,0:00:19.44,0:00:25.74,YellowShorts,,0,0,0,,ONE IS JUST ONE..
+Dialogue: 0,0:00:25.74,0:00:27.92,YellowShorts,,0,0,0,,10..1..BORED DELOIGHT..
+Dialogue: 0,0:00:32.20,0:00:32.82,YellowShorts,,0,0,0,,NOOO
+Dialogue: 0,0:00:34.38,0:00:35.92,YellowShorts,,0,0,0,,OH OK OK
+Dialogue: 0,0:00:35.92,0:00:37.00,YellowShorts,,0,0,0,,ME ANNAPOLA KARAS..
+Dialogue: 0,0:00:37.00,0:00:37.24,YellowShorts,,0,0,0,,..I'M TRYING TO SCARE
+Dialogue: 0,0:00:37.24,0:00:37.74,YellowShorts,,0,0,0,,YOU ..
+Dialogue: 0,0:00:38.94,0:00:40.04,YellowShorts,,0,0,0,,BASICALLY..YOU ARE CHECKING GA
+Dialogue: 0,0:00:40.04,0:00:40.58,YellowShorts,,0,0,0,,-SUB AS I CHECK
+Dialogue: 0,0:00:40.58,0:00:40.58,YellowShorts,,0,0,0,,YOU
+Dialogue: 0,0:00:40.58,0:00:41.82,YellowShorts,,0,0,0,,WHAT ELSE AM I
+Dialogue: 0,0:00:41.82,0:00:41.82,YellowShorts,,0,0,0,,TRYING TO SAY?
+Dialogue: 0,0:00:41.82,0:00:42.40,YellowShorts,,0,0,0,,BECAUSE I HAVE TO
+Dialogue: 0,0:00:42.40,0:00:42.90,YellowShorts,,0,0,0,,EXPLORE THIS MATTER
+Dialogue: 0,0:00:42.90,0:00:44.10,YellowShorts,,0,0,0,,BAISA..WAYEE..
+Dialogue: 0,0:00:44.10,0:00:44.42,YellowShorts,,0,0,0,,...AND I HAVE TAKEN
+Dialogue: 0,0:00:44.42,0:00:45.62,YellowShorts,,0,0,0,,GA -SUB..
+Dialogue: 0,0:00:46.40,0:00:47.82,YellowShorts,,0,0,0,,...SO THERE IS NO
+Dialogue: 0,0:00:47.82,0:00:48.00,YellowShorts,,0,0,0,,C..
+Dialogue: 0,0:00:50.76,0:00:51.38,YellowShorts,,0,0,0,,B..BAAI..BAAI..BAAI..BAAI..BAAI..BAAI..BAAI..BAAI..BAAI..BAAI
+Dialogue: 0,0:00:51.38,0:00:51.94,YellowShorts,,0,0,0,,PEEP..!
+Dialogue: 0,0:00:51.94,0:00:53.90,YellowShorts,,0,0,0,,KALI, HEЕМУ VLOGGING...
+Dialogue: 0,0:00:53.90,0:00:55.82,YellowShorts,,0,0,0,,DATE DOESN'T GO DIRECTLY...
+Dialogue: 0,0:00:55.82,0:00:56.34,YellowShorts,,0,0,0,,HE MAKE A DETECTIVE
+Dialogue: 0,0:00:56.34,0:00:56.86,YellowShorts,,0,0,0,,IN THIS MOVIE .Ы..MOVE
+Dialogue: 0,0:00:57.78,0:00:58.82,YellowShorts,,0,0,0,,BACK... WHAT TO DO
+Dialogue: 0,0:00:58.82,0:00:58.82,YellowShorts,,0,0,0,,WITH
+Dialogue: 0,0:00:58.82,0:01:01.14,YellowShorts,,0,0,0,,ZOOM OUT? NOW C
+Dialogue: 0,0:01:01.14,0:01:01.14,YellowShorts,,0,0,0,,ДА THAT
+Dialogue: 0,0:01:01.14,0:01:02.06,YellowShorts,,0,0,0,,HE'S GOING TO GIVE
+Dialogue: 0,0:01:02.06,0:01:03.54,YellowShorts,,0,0,0,,HIM? HI. HE'S
+Dialogue: 0,0:01:03.54,0:01:04.74,YellowShorts,,0,0,0,,GOT IT. I THINK...NOW
+Dialogue: 0,0:01:04.74,0:01:05.26,YellowShorts,,0,0,0,,I DON'T NEED BUCKS.
+Dialogue: 0,0:01:05.92,0:01:06.76,YellowShorts,,0,0,0,,BUT I DON'T
+Dialogue: 0,0:01:06.76,0:01:06.76,YellowShorts,,0,0,0,,WANT TO NECESSARILY CAUSE
+Dialogue: 0,0:01:06.76,0:01:08.94,YellowShorts,,0,0,0,,YOU... WHY NOT SAVE
+Dialogue: 0,0:01:08.94,0:01:09.08,YellowShorts,,0,0,0,,HIM?
+Dialogue: 0,0:01:09.58,0:01:12.50,YellowShorts,,0,0,0,,THIS IS ALL.. OK.
+Dialogue: 0,0:01:14.02,0:01:14.78,YellowShorts,,0,0,0,,WE ARE NOW DOING
+Dialogue: 0,0:01:14.78,0:01:15.18,YellowShorts,,0,0,0,,SHIT THERE.
+Dialogue: 0,0:01:16.64,0:01:17.32,YellowShorts,,0,0,0,,SOME PEOPLE DON'T LIKE
+Dialogue: 0,0:01:17.32,0:01:17.70,YellowShorts,,0,0,0,,WEEINDING
+Dialogue: 0,0:01:17.70,0:01:18.14,YellowShorts,,0,0,0,,STREAM.
+Dialogue: 0,0:01:18.14,0:01:19.48,YellowShorts,,0,0,0,,BHAI, CUS WE'RE JUST
+Dialogue: 0,0:01:19.48,0:01:20.20,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:20.20,0:01:20.86,YellowShorts,,0,0,0,,THIS, BHAI
+Dialogue: 0,0:01:20.86,0:01:21.70,YellowShorts,,0,0,0,,LIGHT BALLER IN THE
+Dialogue: 0,0:01:21.70,0:01:22.12,YellowShorts,,0,0,0,,BACK, BHAI
+Dialogue: 0,0:01:22.12,0:01:23.04,YellowShorts,,0,0,0,,BHAI, CUS WE'RE JUST
+Dialogue: 0,0:01:23.04,0:01:23.22,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:23.22,0:01:23.44,YellowShorts,,0,0,0,,THIS
+Dialogue: 0,0:01:24.12,0:01:24.58,YellowShorts,,0,0,0,,BHAI, CUS WE'RE JUST
+Dialogue: 0,0:01:24.58,0:01:24.58,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:24.58,0:01:24.58,YellowShorts,,0,0,0,,THIS
+Dialogue: 0,0:01:24.58,0:01:25.90,YellowShorts,,0,0,0,,PANI, HE'S PANI, BHAI
+Dialogue: 0,0:01:27.86,0:01:28.74,YellowShorts,,0,0,0,,HE'S PANI, CUS WE'RE
+Dialogue: 0,0:01:28.74,0:01:30.70,YellowShorts,,0,0,0,,JUST IN A CLOCK
+Dialogue: 0,0:01:30.70,0:01:30.70,YellowShorts,,0,0,0,,LIKE THIS
+Dialogue: 0,0:01:30.70,0:01:32.06,YellowShorts,,0,0,0,,BROTHER, BHAI
+Dialogue: 0,0:01:35.10,0:01:36.68,YellowShorts,,0,0,0,,BHAI, FIRST PERSON WON'T
+Dialogue: 0,0:01:36.68,0:01:37.26,YellowShorts,,0,0,0,,GET A BHAI
+Dialogue: 0,0:01:38.12,0:01:38.42,YellowShorts,,0,0,0,,OKAY
+Dialogue: 0,0:01:38.92,0:01:39.74,YellowShorts,,0,0,0,,ASSAI, YOU'RE PHONE
+Dialogue: 0,0:01:39.74,0:01:40.36,YellowShorts,,0,0,0,,BROTHER
+Dialogue: 0,0:01:41.98,0:01:42.62,YellowShorts,,0,0,0,,BRO, YOU'RE A BHAI,
+Dialogue: 0,0:01:42.94,0:01:43.36,YellowShorts,,0,0,0,,BRO, YOU'RE THE ONE
+Dialogue: 0,0:01:43.36,0:01:44.52,YellowShorts,,0,0,0,,WHO'LL GET A BHAI
+Dialogue: 0,0:01:44.52,0:01:45.86,YellowShorts,,0,0,0,,I'M A PHONE, BHAI
+Dialogue: 0,0:01:49.48,0:01:50.14,YellowShorts,,0,0,0,,BRO, YOU'RE A BHAI,
+Dialogue: 0,0:01:51.58,0:01:52.76,YellowShorts,,0,0,0,,YOU'RE THE ONE WHO'LL
+Dialogue: 0,0:01:52.76,0:01:52.88,YellowShorts,,0,0,0,,GET A BHAI
+Dialogue: 0,0:01:52.88,0:01:54.98,YellowShorts,,0,0,0,,BHAI, BHAI, CUS WE'RE
+Dialogue: 0,0:01:54.98,0:01:56.50,YellowShorts,,0,0,0,,JUST IN A CLOCK
+Dialogue: 0,0:01:56.50,0:01:56.86,YellowShorts,,0,0,0,,LIKE THIS
+Dialogue: 0,0:01:56.86,0:01:56.86,YellowShorts,,0,0,0,,BHAI, CUS WE'RE JUST
+Dialogue: 0,0:01:56.86,0:01:56.86,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:56.86,0:01:57.44,YellowShorts,,0,0,0,,THIS
+Dialogue: 0,0:01:57.44,0:01:58.02,YellowShorts,,0,0,0,,BRO, CUS WE'RE JUST
+Dialogue: 0,0:01:58.02,0:01:59.10,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:59.10,0:01:59.10,YellowShorts,,0,0,0,,THIS
+Dialogue: 0,0:01:59.10,0:01:59.26,YellowShorts,,0,0,0,,BHAI, CUS WE'RE JUST
+Dialogue: 0,0:01:59.26,0:01:59.26,YellowShorts,,0,0,0,,IN A CLOCK LIKE
+Dialogue: 0,0:01:59.26,0:01:59.26,YellowShorts,,0,0,0,,THIS
+Dialogue: 0,0:01:59.26,0:01:59.76,YellowShorts,,0,0,0,,ABHI, ACHA

@@ -27,7 +27,7 @@ class LiveChatWatcher:
         if "@" in url_or_id or "/channel/" in url_or_id or "/c/" in url_or_id:
             try:
                 import yt_dlp
-                ydl = yt_dlp.YoutubeDL({'quiet': True, 'noplaylist': True})
+                ydl = yt_dlp.YoutubeDL({'quiet': True, 'noplaylist': True, 'no_warnings': True})
                 info = ydl.extract_info(url_or_id, download=False)
                 resolved_id = info.get('id')
                 if resolved_id:
@@ -57,7 +57,7 @@ class LiveChatWatcher:
     def _run_listener(self):
         import pytchat
         try:
-            chat = pytchat.create(video_id=self.stream_id)
+            chat = pytchat.create(video_id=self.stream_id, interruptable=False)
         except Exception as e:
             print(f"[ChatWatcher] Error connecting to chat: {e}")
             return

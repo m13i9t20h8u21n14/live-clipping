@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YellowShorts,Arial Black,76,&H0000FFFF,&H0000FFFF,&H00000000,&HA0000000,1,1,0,0,100,100,2,0,1,6,3,2,50,50,440,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.88,YellowShorts,,0,0,0,,OH, YOU'RE DOING WITH
+Dialogue: 0,0:00:00.88,0:00:02.22,YellowShorts,,0,0,0,,MY MOTHER'S CAR, HUH?
+Dialogue: 0,0:00:02.36,0:00:02.80,YellowShorts,,0,0,0,,OH, NO!
+Dialogue: 0,0:00:03.38,0:00:04.00,YellowShorts,,0,0,0,,NO!
+Dialogue: 0,0:00:04.10,0:00:04.42,YellowShorts,,0,0,0,,NO!
+Dialogue: 0,0:00:04.42,0:00:04.56,YellowShorts,,0,0,0,,NO!
+Dialogue: 0,0:00:04.90,0:00:04.94,YellowShorts,,0,0,0,,NO!
+Dialogue: 0,0:00:07.66,0:00:09.92,YellowShorts,,0,0,0,,OH, WHAT ABOUT YOU?
+Dialogue: 0,0:00:09.92,0:00:10.48,YellowShorts,,0,0,0,,OH, WHAT ABOUT YOU?
+Dialogue: 0,0:00:11.30,0:00:11.96,YellowShorts,,0,0,0,,WHAT ABOUT YOU?
+Dialogue: 0,0:00:12.80,0:00:13.70,YellowShorts,,0,0,0,,YOU SHOULD'VE GONE TO
+Dialogue: 0,0:00:13.70,0:00:14.90,YellowShorts,,0,0,0,,THE RIGHT HOSPITAL,
+Dialogue: 0,0:00:15.08,0:00:16.44,YellowShorts,,0,0,0,,WE PLAN TO PLAN
+Dialogue: 0,0:00:16.44,0:00:17.20,YellowShorts,,0,0,0,,FOR THE TIME
+Dialogue: 0,0:00:18.06,0:00:18.64,YellowShorts,,0,0,0,,WE PLAN FOR THE
+Dialogue: 0,0:00:18.64,0:00:19.14,YellowShorts,,0,0,0,,TIME
+Dialogue: 0,0:00:21.34,0:00:21.98,YellowShorts,,0,0,0,,AND..
+Dialogue: 0,0:00:21.98,0:00:23.16,YellowShorts,,0,0,0,,WHAT ABOUT YOU?
+Dialogue: 0,0:00:23.68,0:00:23.80,YellowShorts,,0,0,0,,WHAT ABOUT YOU?
+Dialogue: 0,0:00:24.16,0:00:24.50,YellowShorts,,0,0,0,,HEY!
+Dialogue: 0,0:00:25.40,0:00:26.70,YellowShorts,,0,0,0,,YOU'RE SUCH A GUY,
+Dialogue: 0,0:00:26.84,0:00:27.84,YellowShorts,,0,0,0,,IN A STATE OF
+Dialogue: 0,0:00:27.84,0:00:28.34,YellowShorts,,0,0,0,,HIS WAY
+Dialogue: 0,0:00:28.34,0:00:29.84,YellowShorts,,0,0,0,,AND SO MANY JOOGARDS.
+Dialogue: 0,0:00:31.04,0:00:32.70,YellowShorts,,0,0,0,,AND SO MANY GAND
+Dialogue: 0,0:00:32.70,0:00:33.08,YellowShorts,,0,0,0,,LIKE THIS.
+Dialogue: 0,0:00:33.58,0:00:35.38,YellowShorts,,0,0,0,,OH MY GOD!
+Dialogue: 0,0:00:35.44,0:00:36.22,YellowShorts,,0,0,0,,WHY IS YOUR HAIR
+Dialogue: 0,0:00:36.22,0:00:36.44,YellowShorts,,0,0,0,,SO LONG?
+Dialogue: 0,0:00:38.30,0:00:38.90,YellowShorts,,0,0,0,,WHY IS YOUR HAIR
+Dialogue: 0,0:00:38.90,0:00:39.14,YellowShorts,,0,0,0,,SO LONG?
+Dialogue: 0,0:00:40.10,0:00:40.58,YellowShorts,,0,0,0,,WHY IS YOUR HAIR
+Dialogue: 0,0:00:40.58,0:00:40.58,YellowShorts,,0,0,0,,SO LONG?
+Dialogue: 0,0:00:40.64,0:00:41.24,YellowShorts,,0,0,0,,WHY IS YOUR HAIR
+Dialogue: 0,0:00:41.24,0:00:41.24,YellowShorts,,0,0,0,,SO LONG?
+Dialogue: 0,0:00:41.82,0:00:42.20,YellowShorts,,0,0,0,,WHY IS YOUR HAIR
+Dialogue: 0,0:00:42.20,0:00:42.20,YellowShorts,,0,0,0,,SO LONG?
